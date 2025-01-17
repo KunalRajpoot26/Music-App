@@ -1,0 +1,32 @@
+body {
+    margin : 0;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.img1 {
+    size: 2px;
+}
+
+/* .search-icon {
+    height: 2px;
+    width: 2px;
+} */
+
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    /* width: 10rem; */
+}
+.search-input {
+    background-color: grey;
+    
+}
+.search-input::placeholder{
+    color: white;
+}
